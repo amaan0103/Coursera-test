@@ -1,0 +1,50 @@
+body {
+  font-size: 16px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+#header-nav {
+  background-color: #f6b319;
+  border-radius: 0;
+  border: 0;
+}
+.navbar-brand {
+	height: auto;
+}
+.navbar-brand h1 {
+	text-align: left;
+	color: black;
+}
+#main-content section{
+	width:100%;
+	margin:10px auto 10px;
+	background-color: #f6b319;
+	border: 5px solid black;
+	text-align: center;
+}
+button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+button.navbar-toggle {
+  margin-top: -50px;
+}
+#nav-list {
+	height:100%;
+	margin-top:0;
+	margin-bottom:0;
+	text-align: center;
+	background-color: white;
+	color: black;
+}
+#collapsable-nav {
+	background-color: white;
+	margin:0;
+	border: 1px solid black;
+}
+#nav-list li:nth-child(1), #nav-list li:nth-child(2) {
+	border-bottom: 1px solid black;
+}
+#nav-list li:hover {
+	border: white;
+	background-color: black;
+	color: white;
+}
